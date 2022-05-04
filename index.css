@@ -1,0 +1,121 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 1440px;
+    height: 650px;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    margin: 2rem;
+}
+
+.image {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.heading-900 {
+    font-weight: 900;
+    font-size: larger;
+}
+
+.heading-700 {
+    font-weight: 700;
+    font-size: large;
+}
+
+.heading-500 {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.description {
+    font-weight: 500;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    background-color: hsl(225, 100%, 94%);
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.plan-left {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+.change {
+    background-color: transparent;
+    color: hsl(245, 75%, 52%);
+    border: 0;
+    text-decoration-line: underline;
+}
+.change:hover {
+    color: #7873C4;
+}
+
+.proceed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.proceed-payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 8px;
+    width: 400px;
+    height: 40px;
+}
+
+.proceed-payment:hover {
+    background-color: #7873C4;
+}
+
+.cancel {
+    background-color: transparent;
+    color: gray;
+    width: 400px;
+    height: 40px;
+}
+
+.cancel:hover {
+    color: black;
+    font-weight: bold;
+}
